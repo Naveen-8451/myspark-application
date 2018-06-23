@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9bf2faf-a059-404b-bb8e-56578512c5c4" name="Default" comment="" />
+    <list default="true" id="a9bf2faf-a059-404b-bb8e-56578512c5c4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jobs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jobs/basic_tranformations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jobs/basic_tranformations/basic_transformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451-1.0.19.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/PySparkBaseApplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/metadata/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/metadata/metadatajsonconverter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/metadata/metalogger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/app_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/dictmerge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/file_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/filewrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/fsc_calendar_dim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/initializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/read_from_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/spark_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/transformation.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +42,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-44">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic_transformation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jobs/basic_tranformations/basic_transformation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transformation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shared/transformation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_from_db.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/read_from_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,9 +115,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main.py" />
-        <option value="$PROJECT_DIR$/src/shared/transformation.py" />
         <option value="$PROJECT_DIR$/conf/spark_conf.py" />
+        <option value="$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/utils.py" />
+        <option value="$PROJECT_DIR$/resources/config.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/jobs/basic_tranformations/basic_transformation.py" />
+        <option value="$PROJECT_DIR$/src/utils/read_from_db.py" />
+        <option value="$PROJECT_DIR$/src/shared/transformation.py" />
       </list>
     </option>
   </component>
@@ -52,17 +146,32 @@
             <path>
               <item name="myspark-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspark-application" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myspark-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myspark-application" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myspark-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="myspark-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspark-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspark-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_tranformations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspark-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspark-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myspark-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspark-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -72,6 +181,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,17 +214,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26494345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26494345" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50080776" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49919224" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -125,21 +240,66 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/utils.py</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/transformation.py">
+    <entry file="file://$PROJECT_DIR$/conf/spark_conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/spark_conf.py">
+    <entry file="file://$PROJECT_DIR$/src/libs/pyspark_shared_libs_8451/shared/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jobs/basic_tranformations/basic_transformation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/read_from_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
