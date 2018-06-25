@@ -21,7 +21,7 @@ app_config = {
         },
         "db_table": {
             "table_names": [
-                "genre",
+                "genre_sample",
                 "movie",
                 "moviegenre",
                 "movierating",

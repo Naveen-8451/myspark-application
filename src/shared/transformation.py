@@ -46,8 +46,19 @@ def database_data(spark, config, fs, db_type):
                 raise CredentialNotFoundException(message)
             else:
                 source_table_df = read_table_from_db(spark, url, driver, table_name, user_name, password)
-                source_table_df.coalesce(1).write.mode("overwrite").save(os.path.join(stg_target_file, table_name))
-
+                source_table_df = source_table_df.dropDuplicates()
+                if table_name == "movierating":
+                    source_table_df.coalesce(1).write.partitionBy("rating").mode("overwrite").save(
+                        os.path.join(target_file, table_name))
+                elif table_name == "movie":
+                    source_table_df.coalesce(1).write.partitionBy("year").mode("overwrite").save(
+                        os.path.join(target_file, table_name))
+                elif table_name == "user":
+                    source_table_df.coalesce(1).write.partitionBy("gender", "zip").mode("overwrite").save(
+                        os.path.join(target_file, table_name))
+                else:
+                    source_table_df.coalesce(1).write.mode("overwrite").save(
+                        os.path.join(target_file, table_name))
     elif db_type == "db2":
         driver = ""
         if table_name == "":
@@ -62,7 +73,6 @@ def database_data(spark, config, fs, db_type):
             raise TableNotFoundException(message)
         else:
             ""
-
     elif db_type == "hive":
         driver = ""
         if table_name == "":
