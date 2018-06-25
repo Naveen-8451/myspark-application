@@ -1,5 +1,15 @@
-def read_table_from_db(db_type):
-    pass
+
+
+def read_table_from_db(spark, url, driver, table_name, user_name, password):
+
+    table_df = spark.read.format("jdbc").options(
+        url=url,
+        driver=driver,
+        dbtable=table_name,
+        user=user_name,
+        password=password
+    ).load()
+    return table_df
 
 
 def read_in_dataframe(spark, file_name, columns=None, format="csv", header=False, sep=","):
