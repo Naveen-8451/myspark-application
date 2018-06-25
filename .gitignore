@@ -29,4 +29,6 @@ wheels/
 .coverage
 coverage.xml
 .vscode
-
+._SUCCESS
+._SUCCESS.crc
+*.crc
